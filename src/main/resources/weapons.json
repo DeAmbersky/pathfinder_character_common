@@ -28,4 +28,19 @@
     , "buyCost": 15.0
     , "sellCost": 3
   }
+  ,{
+    "minDamage":1
+  , "maxDamage": 1
+  , "criticalChancePercent": 5
+  , "criticalMultiplier": 3
+  , "twoHanded": true
+  , "twoHandDamageBonus": 1.0
+  , "useAgilityBonus": false
+  , "useStrengthBonus": true
+  , "damageType": "CUTTING"
+  , "name": "Fist"
+  , "description": "Two Handed Axe"
+  , "buyCost": 15.0
+  , "sellCost": 3
+  }
 ]

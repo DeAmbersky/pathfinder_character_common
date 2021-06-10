@@ -60,7 +60,7 @@ public class CharacterAttributeDetails implements IAttributeNotifier {
 
     private long calculateModifier() {
         if (tempModifierBonus == 0)
-            return modifier = (valueNormal + tempValueBonus - 10) / 2;
+            return modifier = Math.max(0,(valueNormal + tempValueBonus - 10) / 2);
         else
             return modifier + tempValueBonus;
     }
